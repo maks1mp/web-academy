@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="">
+        Name:
+        <input
+            name="name"
+            type="text"
+            value="User name"
+            placeholder="enter your name"
+            required>
+        <hr>
+        Password:
+        <input type="password" name="password" required>
+        <hr>
+        Age:
+        <input type="number" name="age" min="18" max="120" required>
+        <hr>
+        Email: <input type="email" required> 
+        <!-- other types: "tel", "address", etc -->
+        <hr>
+        <label>
+            I agree with terms and contitions:
+            <input type="checkbox" name="agreement" required>
+        </label>
+        <hr>
+        <fieldset>
+            <legend>Gender:</legend>
+            <label>
+                Male
+                <input type="radio" name="gender">
+            </label>
+            <br>
+            <label>
+                Female
+                <input type="radio" name="gender">
+            </label>
+        </fieldset>
+        <hr>
+        <table border="1">
+            <tbody>
+                <tr>
+                    <td>
+                        <label for="cakes">Пирожки</label>
+                    </td>
+                    <td>
+                        <label for="cacao">Какао</label>
+                    </td>
+                </tr>
+                <tr align="center">
+                    <td>
+                        <input id="cakes" type="checkbox">
+                    </td>
+                    <td>
+                        <input id="cacao" type="checkbox">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+        <input type="submit" value="Send">
+        <input type="button" value="simple button">
+        <input type="reset" value="reset values">
+        <input type="file" name="avatar">
+        <hr>
+        <button>
+            <i>SOME</i>
+            <b>TEXT</b>
+        </button>
+        <textarea cols="30" rows="10" disabled>Hello!</textarea>
+        <a href="https://validator.w3.org/nu/#textarea" target="_blank">
+            validator
+        </a>
+    </form>
+</body>
+</html>

@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+.home-gallery {
+    font-size: 0;
+}
+
+.home-gallery div {
+    display: inline-block;
+    width: 33.3%;
+    padding: 5px;
+    margin-bottom: 25px;
+}
+
+.home-gallery div img {
+    width: 100%;
+}
+
+.home-gallery div:nth-child(4n) {
+    width: 100%;
+}
