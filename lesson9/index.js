@@ -242,4 +242,53 @@ var triangleCreator = createFigure('trianle');
 
 // parseInt('10');
 
+var numbs = [1, 500, 29];
 
+// 1) Сумму элементов массив
+// 2) Самый большой/маленький элементы массива
+// 3) Сделать массив случайных чисел от 1 до 100
+
+function arraySum(arr) {
+    var sum = 0;
+
+    for (var i = 0; i < arr.length; i++) {
+        sum += arr[i];
+    }
+
+    return sum;
+}
+
+function maxAndMinArrayEl(arr) {
+    var max = arr[0],
+        min = arr[0];
+
+    for (var i = 0; i < arr.length; i++) {
+        if (max < arr[i]) {
+            max = arr[i];
+        }
+
+        if (min > arr[i]) {
+            min = arr[i];
+        }
+    }
+
+    console.log('max', max);
+    console.log('min', min);
+}
+
+function randomArr(size) {
+    var arr = [];
+
+    for (var i = 0; i < size; i++) {
+        arr.push(Math.round(Math.random() * 100));
+    }
+
+    return arr;
+}
+
+var arr = randomArr(10);
+
+console.log(arr);
+
+console.log(arraySum(arr));
+maxAndMinArrayEl(arr);
