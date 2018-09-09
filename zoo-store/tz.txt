@@ -1,0 +1,69 @@
+
+
+BestZooSale.com
+
+{
+    admin (Maria)
+
+    login admin (Vitaliy)
+
+    Fileds: 
+    LOGIN: ADMIN
+    PASSWORD: ADMIN 
+}
+
+[
+    {
+        data: {
+            imges: [
+                'http://image.com',
+                'http://image.com'
+            ],
+            title: 'Kapibara',
+            description: 'Lorem',
+            time: '5h',
+            price: 4000,
+            force: 10000000
+        },
+        buttons: [10, 400, 7800] (+1 oven value),
+        purchaser: {
+            login: alex,
+            amount: 6000000,
+            id: 12312434,
+            email: asdasdas@asd.com
+        }
+    }
+]
+
+{
+    login / registration (Maksim)
+
+    REGISTRATION
+    LOGIN:
+    EMAIL:
+    PASSWORD:
+
+    LOGIN:
+    LOGIN/EMAIL
+    PASSWORD
+
+    landing (Alexey)
+
+    USERS LIST
+    MAIN ANIMAL
+    PURCHASE PANEL (3 button 
+        +100
+        +1000
+        MY VALUE
+    )
+
+
+    purchase page (Pavel)
+
+
+    ANIMAL DATA
+    CARD DATA
+    PAY
+
+
+}
