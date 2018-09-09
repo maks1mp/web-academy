@@ -9,7 +9,7 @@ MAIN PAGE FROM:
 
 
 NO BOOTSTRAP (use flexbox instead)
-Reset css from here: 
+Reset css from reset.css (in project)
 Fonts from "Google Fonts";
 
 Project structure:
@@ -19,6 +19,5 @@ Project structure:
 
 BEFORE SEND:
     1) https://validator.w3.org/#validate_by_uri
-    2) 
 
 DEADLINE: 13.09.18, 10:00
